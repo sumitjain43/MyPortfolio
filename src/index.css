@@ -1,0 +1,78 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 dark:from-gray-900 dark:via-gray-800 dark:to-black text-gray-900 dark:text-gray-200;
+
+  overflow-x: hidden;
+}
+
+/* Ensure custom cursor works properly */
+* {
+  cursor: none !important;
+}
+
+/* Interactive elements should show hover state */
+a, button, [role="button"], .surface, .btn-primary, .btn-outline {
+  cursor: none !important;
+}
+
+/* Text areas and inputs - special handling */
+input, textarea {
+  cursor: none !important;
+  /* Prevent cursor jumping on text areas */
+  caret-color: transparent;
+}
+
+/* Disable cursor on images and other elements */
+img, svg, canvas {
+  cursor: none !important;
+}
+
+/* Prevent any unwanted cursor movements */
+button:hover, a:hover, [role="button"]:hover {
+  cursor: none !important;
+}
+
+/* Ensure smooth cursor transitions */
+.custom-cursor {
+  will-change: transform;
+  transform-origin: center center;
+}
+
+@layer base {
+  :root {
+    --bg-start: #eff6ff; /* blue-50 */
+    --bg-mid: #f3e8ff;   /* purple-50 */
+    --bg-end: #fdf2f8;   /* pink-50 */
+    --text: #111827;     /* gray-900 */
+  }
+  .dark {
+    --bg-start: #0b1020;
+    --bg-mid: #111827;   /* gray-900 */
+    --bg-end: #1f2937;   /* gray-800 */
+    --text: #e5e7eb;     /* gray-200 */
+  }
+
+  html, body, #root { height: 100%; }
+  html { scroll-behavior: smooth; }
+  body { 
+    background: linear-gradient(135deg, var(--bg-start) 0%, var(--bg-mid) 50%, var(--bg-end) 100%);
+    color: var(--text);
+  }
+}
+
+@layer components {
+  .surface {
+    @apply bg-white/80 dark:bg-white/5 backdrop-blur-sm border border-white/20 dark:border-white/10 shadow-xl rounded-2xl;
+  }
+  .btn-primary {
+    @apply bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold rounded-full px-6 py-3 shadow-lg hover:shadow-xl transition-all;
+  }
+  .btn-outline {
+    @apply border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-full px-6 py-3 transition-all shadow;
+  }
+}
