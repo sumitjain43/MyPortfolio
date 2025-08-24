@@ -152,7 +152,7 @@ const About = () => {
               transition={{ duration: 0.3 }}
             >
               <img 
-                src="src/assets/photomania-b1baa60c541bed4bc4e0347b74505616-removebg-preview.png" 
+                src="photomania-b1baa60c541bed4bc4e0347b74505616-removebg-preview.png" 
                 alt="Sumit Jain - Developer" 
                 className="w-full h-full object-cover"
               />
