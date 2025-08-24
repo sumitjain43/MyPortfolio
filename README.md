@@ -64,15 +64,6 @@ The built files will be in the `dist` folder.
 
 ## Customization
 
-### Personal Information
-
-Update the following files with your information:
-
-- `src/components/Hero.jsx` - Change name and tagline
-- `src/components/About.jsx` - Update personal details and description
-- `src/components/Contact.jsx` - Update contact information
-- `src/components/Footer.jsx` - Update name and social links
-
 ### Projects
 
 Edit the `projects` array in `src/components/Projects.jsx` to showcase your own projects:
@@ -107,57 +98,6 @@ const skillCategories = [
   }
 ]
 ```
-
-### Styling
-
-The website uses Tailwind CSS for styling. You can:
-
-- Modify colors by changing the color classes (e.g., `blue-600` to `purple-600`)
-- Adjust spacing using Tailwind's spacing utilities
-- Customize the theme in `tailwind.config.js`
-
-### Images
-
-Replace placeholder images with your own:
-
-1. Add your images to the `public` folder
-2. Update image paths in the components
-3. For project images, you can use your own screenshots or designs
-
-## Deployment
-
-### Netlify
-
-1. Push your code to GitHub
-2. Connect your repository to Netlify
-3. Set build command: `npm run build`
-4. Set publish directory: `dist`
-
-### Vercel
-
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run `vercel` in your project directory
-3. Follow the prompts
-
-### GitHub Pages
-
-1. Update `vite.config.js` to include base path
-2. Add deploy script to `package.json`
-3. Use GitHub Actions for automatic deployment
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
 
 ## License
 
