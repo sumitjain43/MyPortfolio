@@ -415,7 +415,7 @@ const Skills = () => {
                             whileTap="tap"
                             className="group bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-bold text-base sm:text-lg border-2 border-gray-200 dark:border-gray-600 hover:border-blue-400 shadow-xl hover:shadow-2xl transition-all duration-300 flex items-center gap-3 w-full sm:w-auto justify-center"
                           >
-                            <span onClick={() => window.open("https://drive.google.com/file/d/1rRcC_0pMmtwMVSf2qCqRhRGQAkNNPl7r/view?usp=sharing")}>Download Resume</span>
+                            <span onClick={() => window.open("https://drive.google.com/file/d/1WnVTF_DJRJMGFmsBTFA9vtUJNlrlmWLl/view?usp=sharing")}>Download Resume</span>
                             <motion.span
                               className="inline-block"
                               animate={{ x: [0, 5, 0] }}
