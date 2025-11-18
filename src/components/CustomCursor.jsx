@@ -30,12 +30,12 @@ const CustomCursor = () => {
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);
       }
-      
+    
       // Set timeout to deactivate cursor after 2 seconds of no movement
       timeoutRef.current = setTimeout(() => {
         setIsActive(false);
       }, 2000);
-      
+     
       setTimeout(() => setIsMoving(false), 150);
     };
 
@@ -50,12 +50,12 @@ const CustomCursor = () => {
     // Smooth animation loop
     const animate = () => {
       // Smooth cursor movement with different speeds
-      cursorX += (mouseX - cursorX) * 0.15;
-      cursorY += (mouseY - cursorY) * 0.15;
+      cursorX += (mouseX - cursorX) ;
+      cursorY += (mouseY - cursorY) ;
       
       // Faster dot movement
-      dotX += (mouseX - dotX) * 0.4;
-      dotY += (mouseY - dotY) * 0.4;
+      dotX += (mouseX - dotX) ;
+      dotY += (mouseY - dotY) ;
 
       if (cursorRef.current) {
         cursorRef.current.style.left = `${cursorX - 20}px`;
@@ -148,7 +148,7 @@ const CustomCursor = () => {
       {/* Dynamic Background Animation */}
       <div
         ref={backgroundRef}
-        className="fixed pointer-events-none z-20 transition-all duration-300 ease-out"
+        className="fixed pointer-events-none z-100 transition-all duration-300 ease-out"
         style={{
           left: 0,
           top: 0,
