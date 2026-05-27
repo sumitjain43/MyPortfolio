@@ -2,6 +2,8 @@
 
 A modern, responsive portfolio website built with React, Vite, and Tailwind CSS.
 
+Live: https://tatva-ai.vercel.app/
+
 ## Features
 
 - 🎨 **Modern Design**: Clean and professional design with smooth animations
