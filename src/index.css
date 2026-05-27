@@ -10,37 +10,8 @@ body {
   overflow-x: hidden;
 }
 
-/* Ensure custom cursor works properly */
 * {
-  cursor: none !important;
-}
-
-/* Interactive elements should show hover state */
-a, button, [role="button"], .surface, .btn-primary, .btn-outline {
-  cursor: none !important;
-}
-
-/* Text areas and inputs - special handling */
-input, textarea {
-  cursor: none !important;
-  /* Prevent cursor jumping on text areas */
-  caret-color: transparent;
-}
-
-/* Disable cursor on images and other elements */
-img, svg, canvas {
-  cursor: none !important;
-}
-
-/* Prevent any unwanted cursor movements */
-button:hover, a:hover, [role="button"]:hover {
-  cursor: none !important;
-}
-
-/* Ensure smooth cursor transitions */
-.custom-cursor {
-  will-change: transform;
-  transform-origin: center center;
+  cursor: auto !important;
 }
 
 @layer base {

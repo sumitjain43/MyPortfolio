@@ -15,130 +15,134 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce application built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      liveLink: "#",
-      githubLink: "#",
-      featured: true,
+      title: "Blog Platform",
+      description: "A content management system for blogs with markdown support, user authentication, and admin dashboard.",
+      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=300&fit=crop",
+      technologies: ["React", "Appwrite", "JavaScript", "Tailwind CSS"],
+      liveLink: "https://tes-vloger.vercel.app/",
+      githubLink: "https://github.com/sumitjain43/tesblog",
+      featured: false,
       category: "fullstack",
+      gradient: "from-indigo-500 to-purple-600",
+      bgGradient: "from-indigo-50 to-purple-50",
+      icon: "📝",
+    },
+    {
+      title: "Streaming Platform",
+      description:"Developed a scalable MERN Stack-based streaming platform featuring a Twitter-inspired social media interface, real-time video streaming, user authentication, and interactive engagement features.",
+      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=300&fit=crop",
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Cloudinary", "JWT", "Axios", "Tailwind CSS"],
+      liveLink: "https://video-streaming-timus.vercel.app/",
+      githubLink: "https://github.com/sumitjain43/videoapp",
+      featured: false,
+      category: "fullstack",
+      gradient: "from-orange-500 to-red-600",
+      bgGradient: "from-orange-50 to-red-50",
+      icon: "🏗️",
+    },
+    {
+      title: "Tatva AI",
+      description:"Built an AI-powered web application using Next.js, Tailwind CSS, and Prisma, with modular architecture, real-time data handling, and scalable full-stack performance.",
+      image: "https://www.aiu.edu/wp-content/uploads/2024/08/where-is-ai-used-1024x683-1.jpg",
+      technologies: ["React.js", "Tailwind CSS", "Prisma ORM", "Node.js", "PostgreSQL"],
+      liveLink: "https://tatva-ai.vercel.app/",
+      githubLink: "https://github.com/sumitjain43/TatvaA",
+      featured: false,
+      category: "fullstack",
+      gradient: "from-teal-500 to-green-600",
+      bgGradient: "from-teal-50 to-green-50",
+      icon: "🗄️",
+    },
+    {
+      title: "Grammar & Translation : Chrome Extension",
+      description: "A chrome extension that checks the grammar and translation of text input by the user.",
+      image: "https://qubika.com/wp-content/uploads/2024/12/extensions-chrome.jpg",
+      technologies: ["JavaScript", "HTML", "CSS", "Chrome Manifest", "Chrome Storage API"],
+      liveLink: "https://home-ecommerce.vercel.app/",
+      githubLink: "https://github.com/sumitjain43/home-ecommerce",
+      featured: true,
+      category: "frontend",
       gradient: "from-blue-500 to-purple-600",
       bgGradient: "from-blue-50 to-purple-50",
       icon: "🛒",
-      stats: { users: "10K+", revenue: "$50K+", rating: "4.8" }
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop",
+      title: "E-Commerce Home Page",
+      description: "A full-stack e-commerce application built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
+      technologies: ["JavaScript", "Tailwind CSS", "HTML"],
+      liveLink: "https://home-ecommerce.vercel.app/",
+      githubLink: "https://github.com/sumitjain43/home-ecommerce",
+      featured: true,
+      category: "frontend",
+      gradient: "from-blue-500 to-purple-600",
+      bgGradient: "from-blue-50 to-purple-50",
+      icon: "🛒",
+    },
+    {
+      title: "Youtube FrontEnd",
+      description: "A frontend of Youtube with a clean and responsive design.",
+      image: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       technologies: ["React", "Firebase", "Tailwind CSS", "Framer Motion"],
-      liveLink: "#",
-      githubLink: "#",
+      liveLink: "https://you-tube-clone-five-mu.vercel.app/",
+      githubLink: "https://github.com/sumitjain43/YouTube_Clone",
       featured: false,
       category: "frontend",
       gradient: "from-green-500 to-emerald-600",
       bgGradient: "from-green-50 to-emerald-50",
       icon: "✅",
-      stats: { users: "5K+", tasks: "100K+", rating: "4.6" }
     },
     {
       title: "Weather Dashboard",
       description: "A weather application that displays current weather conditions and forecasts using OpenWeatherMap API with beautiful UI and responsive design.",
       image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=500&h=300&fit=crop",
       technologies: ["JavaScript", "HTML", "CSS", "Weather API"],
-      liveLink: "#",
-      githubLink: "#",
+      liveLink: "https://acuuforest.netlify.app/",
+      githubLink: "https://github.com/sumitjain43/weather_app_global_trend",
       featured: false,
       category: "frontend",
       gradient: "from-yellow-500 to-orange-600",
       bgGradient: "from-yellow-50 to-orange-50",
       icon: "🌤️",
-      stats: { users: "15K+", cities: "100+", rating: "4.7" }
     },
     {
       title: "Portfolio Website",
       description: "A modern, responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and professional design.",
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop",
       technologies: ["React", "Tailwind CSS", "Vite", "JavaScript"],
-      liveLink: "#",
-      githubLink: "#",
+      liveLink: "https://sumit-jain.vercel.app/",
+      githubLink: "https://github.com/sumitjain43/MyPortfolio",
       featured: false,
       category: "frontend",
       gradient: "from-pink-500 to-rose-600",
       bgGradient: "from-pink-50 to-rose-50",
       icon: "🎨",
-      stats: { views: "25K+", visitors: "8K+", rating: "4.9" }
     },
     {
-      title: "Blog Platform",
-      description: "A content management system for blogs with markdown support, user authentication, and admin dashboard.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=300&fit=crop",
-      technologies: ["Next.js", "Prisma", "PostgreSQL", "Tailwind CSS"],
-      liveLink: "#",
-      githubLink: "#",
-      featured: false,
-      category: "fullstack",
-      gradient: "from-indigo-500 to-purple-600",
-      bgGradient: "from-indigo-50 to-purple-50",
-      icon: "📝",
-      stats: { posts: "500+", authors: "50+", rating: "4.5" }
-    },
-    {
-      title: "Social Media Dashboard",
-      description: "A comprehensive dashboard for managing multiple social media accounts with analytics and scheduling capabilities.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
+      title: "Random Meme Generator",
+      description: "A meme generator application that allows users to create and share random memes.",  
+      image: "https://media.istockphoto.com/id/994140476/photo/3d-rendering-set-of-emoji-isolated-on-white.jpg?s=1024x1024&w=is&k=20&c=kub1c0xbdYn5fVG0GFOj8SyB95AUqLE0yvls6xBRDTU=",
       technologies: ["React", "Node.js", "Socket.io", "Chart.js"],
-      liveLink: "#",
-      githubLink: "#",
+      liveLink: "https://meme-generator-plum-pi.vercel.app/",
+      githubLink: "https://github.com/sumitjain43/meme-generator",
       featured: false,
       category: "fullstack",
       gradient: "from-cyan-500 to-blue-600",
       bgGradient: "from-cyan-50 to-blue-50",
       icon: "📊",
-      stats: { accounts: "100+", posts: "1K+", rating: "4.4" }
     },
     {
-      title: "API Gateway Service",
-      description: "A high-performance API gateway built with Node.js and Express, featuring rate limiting, authentication, and load balancing capabilities.",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&h=300&fit=crop",
-      technologies: ["Node.js", "Express", "Redis", "Docker"],
-      liveLink: "#",
-      githubLink: "#",
+      title: "Quiz App",
+      description: "A quiz application built with React and Node.js, featuring interactive question and answer features.",
+      image: "https://codingartistweb.com/wp-content/uploads/2022/06/Quiz-App-01.png",
+      technologies: ["React", "JavaScript", "API"],
+      liveLink: "https://quizeapp-geaography.netlify.app/",
+      githubLink: "https://github.com/sumitjain43/quizeapp-geaography",
       featured: false,
-      category: "backend",
+      category: "frontend",
       gradient: "from-red-500 to-pink-600",
       bgGradient: "from-red-50 to-pink-50",
       icon: "🔌",
-      stats: { requests: "1M+", uptime: "99.9%", rating: "4.7" }
-    },
-    {
-      title: "Microservices Architecture",
-      description: "A scalable microservices system built with Python and FastAPI, featuring service discovery, monitoring, and distributed tracing.",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=300&fit=crop",
-      technologies: ["Python", "FastAPI", "PostgreSQL", "Kubernetes"],
-      liveLink: "#",
-      githubLink: "#",
-      featured: false,
-      category: "backend",
-      gradient: "from-orange-500 to-red-600",
-      bgGradient: "from-orange-50 to-red-50",
-      icon: "🏗️",
-      stats: { services: "15+", throughput: "10K/s", rating: "4.6" }
-    },
-    {
-      title: "Database Management System",
-      description: "A custom database management system with advanced query optimization, indexing, and transaction management.",
-      image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=500&h=300&fit=crop",
-      technologies: ["C++", "SQL", "B-tree", "ACID"],
-      liveLink: "#",
-      githubLink: "#",
-      featured: false,
-      category: "backend",
-      gradient: "from-teal-500 to-green-600",
-      bgGradient: "from-teal-50 to-green-50",
-      icon: "🗄️",
-      stats: { tables: "1000+", queries: "100K/s", rating: "4.5" }
     }
   ]
 
@@ -152,12 +156,6 @@ const Projects = () => {
   const filteredProjects = activeFilter === 'all' 
     ? projects 
     : projects.filter(project => project.category === activeFilter)
-
-  // Debug logging to help troubleshoot
-  console.log('Active filter:', activeFilter)
-  console.log('Total projects:', projects.length)
-  console.log('Filtered projects:', filteredProjects.length)
-  console.log('Available categories:', [...new Set(projects.map(p => p.category))])
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -196,7 +194,7 @@ const Projects = () => {
   }
 
   return (
-    <section id="projects" ref={containerRef} className="py-20 relative overflow-hidden min-h-screen">
+    <section id="projects" ref={containerRef} className="py-14 relative overflow-hidden">
       {/* 3D Background Elements */}
       <div className="absolute inset-0 -z-10">
         <div className="hidden dark:block absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-black" />
@@ -236,29 +234,29 @@ const Projects = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Enhanced Header */}
         <motion.div 
-          className="text-center mb-20"
+          className="text-center mb-12"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
           <motion.div
-            className="inline-block mb-8"
+            className="inline-block mb-6"
             whileHover={{ rotateY: 360, scale: 1.1 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="w-24 h-24 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full flex items-center justify-center text-4xl shadow-2xl">
+            <div className="w-20 h-20 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full flex items-center justify-center text-3xl shadow-2xl">
               🚀
             </div>
           </motion.div>
           
-          <h2 className="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 mb-4">
             Featured Projects
           </h2>
           
-          <div className="w-48 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 mx-auto rounded-full mb-8"></div>
+          <div className="w-32 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 mx-auto rounded-full mb-5"></div>
           
-          <p className="text-gray-600 dark:text-gray-300 max-w-4xl mx-auto text-xl leading-relaxed">
+          <p className="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto text-lg leading-relaxed">
             Explore my portfolio of innovative projects that showcase cutting-edge technologies, 
             creative problem-solving, and exceptional user experiences.
           </p>
@@ -266,7 +264,7 @@ const Projects = () => {
 
         {/* Category Filter */}
         <motion.div 
-          className="flex flex-wrap justify-center gap-4 mb-16"
+          className="flex flex-wrap justify-center gap-3 mb-10"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -293,7 +291,7 @@ const Projects = () => {
         {/* 3D Project Grid */}
         {filteredProjects.length > 0 ? (
           <motion.div 
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-12"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
@@ -319,7 +317,7 @@ const Projects = () => {
                 <div className={`absolute inset-0 bg-gradient-to-br ${project.bgGradient} rounded-3xl transform rotate-3 group-hover:rotate-0 transition-transform duration-500`}></div>
                 
                 {/* Main Card */}
-                <div className={`relative bg-white dark:bg-gray-800 rounded-3xl p-6 border-2 border-gray-200 dark:border-gray-700 shadow-2xl group-hover:shadow-3xl transition-all duration-500 overflow-hidden`}>
+                <div className={`relative bg-white dark:bg-gray-800 rounded-3xl p-4 border-2 border-gray-200 dark:border-gray-700 shadow-2xl group-hover:shadow-3xl transition-all duration-500 overflow-hidden`}>
                   {/* Featured Badge */}
                   {project.featured && (
                     <motion.div 
@@ -335,7 +333,7 @@ const Projects = () => {
                   )}
                   
                   {/* Project Icon */}
-                  <div className="text-center mb-6">
+                  <div className="text-center mb-4">
                     <motion.div 
                       className="text-5xl mb-3"
                       whileHover={{ scale: 1.2, rotate: 5 }}
@@ -346,7 +344,7 @@ const Projects = () => {
                   </div>
 
                   {/* Project Image */}
-                  <div className="relative h-48 overflow-hidden rounded-2xl mb-6 group-hover:scale-105 transition-transform duration-500">
+                  <div className="relative h-40 overflow-hidden rounded-2xl mb-3 group-hover:scale-105 transition-transform duration-500">
                     <img 
                       src={project.image} 
                       alt={project.title}
@@ -356,24 +354,14 @@ const Projects = () => {
                   </div>
                   
                   {/* Project Content */}
-                  <div className="space-y-4">
-                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 transition-colors duration-300">
+                  <div className="space-y-3">
+                    <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 transition-colors duration-300">
                       {project.title}
                     </h3>
                     
                     <p className="text-gray-600 dark:text-gray-300 leading-relaxed line-clamp-3">
                       {project.description}
                     </p>
-                    
-                    {/* Project Stats */}
-                    <div className="grid grid-cols-3 gap-2 py-3">
-                      {Object.entries(project.stats).map(([key, value]) => (
-                        <div key={key} className="text-center">
-                          <div className="text-lg font-bold text-blue-600">{value}</div>
-                          <div className="text-xs text-gray-500 capitalize">{key}</div>
-                        </div>
-                      ))}
-                    </div>
                     
                     {/* Technologies */}
                     <div className="flex flex-wrap gap-2">
@@ -392,20 +380,20 @@ const Projects = () => {
                     </div>
                     
                     {/* Action Buttons */}
-                    <div className="flex gap-3 pt-4">
+                    <div className="flex gap-3 pt-2">
                       <motion.a 
                         href={project.liveLink}
-                        whileHover={{ scale: 1.05, y: -2 }}
+                        whileHover={{ scale: 1.03 }}
                         whileTap={{ scale: 0.95 }}
-                        className="flex-1 bg-gradient-to-r from-blue-500 to-purple-600 text-white text-center py-3 px-4 rounded-xl font-medium shadow-lg hover:shadow-xl transition-all duration-300"
+                        className="flex-1 bg-gradient-to-r from-blue-500 to-purple-600 text-white text-center py-2.5 px-4 rounded-xl font-medium shadow-lg hover:shadow-xl transition-all duration-300"
                       >
                         Live Demo
                       </motion.a>
                       <motion.a 
                         href={project.githubLink}
-                        whileHover={{ scale: 1.05, y: -2 }}
+                        whileHover={{ scale: 1.03 }}
                         whileTap={{ scale: 0.95 }}
-                        className="flex-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-center py-3 px-4 rounded-xl font-medium border-2 border-gray-200 dark:border-gray-600 hover:border-blue-400 transition-all duration-300"
+                        className="flex-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-center py-2.5 px-4 rounded-xl font-medium border-2 border-gray-200 dark:border-gray-600 hover:border-blue-400 transition-all duration-300"
                       >
                         GitHub
                       </motion.a>

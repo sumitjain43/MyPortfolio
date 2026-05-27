@@ -27,7 +27,7 @@ const Skills = () => {
       skills: [
         { name: "Node.js", level: 80, color: "from-green-500 to-green-600", icon: "🟢" },
         { name: "Express.js", level: 75, color: "from-gray-500 to-gray-600", icon: "🚀" },
-        { name: "Python", level: 70, color: "from-blue-500 to-indigo-500", icon: "🐍" },
+        { name: "SQL", level: 70, color: "from-blue-500 to-indigo-500", icon: "🐍" },
         { name: "MongoDB", level: 75, color: "from-green-400 to-green-500", icon: "🍃" }
       ]
     },
@@ -38,10 +38,10 @@ const Skills = () => {
       bgColor: "from-green-50 to-emerald-50",
       borderColor: "border-green-200",
       skills: [
-        { name: "Git", level: 85, color: "from-orange-500 to-red-500", icon: "📚" },
+        { name: "GitHub", level: 85, color: "from-orange-500 to-red-500", icon: "📚" },
         { name: "AWS", level: 65, color: "from-yellow-500 to-orange-500", icon: "☁️" },
-        { name: "Figma", level: 60, color: "from-purple-500 to-pink-500", icon: "🎭" },
-        { name: "Linux", level: 75, color: "from-yellow-400 to-orange-400", icon: "🐧" }
+        { name: "VS Code", level: 60, color: "from-purple-500 to-pink-500", icon: "🎭" },
+        { name: "ChatGPT", level: 75, color: "from-yellow-400 to-orange-400", icon: "🐧" }
       ]
     }
   ]
